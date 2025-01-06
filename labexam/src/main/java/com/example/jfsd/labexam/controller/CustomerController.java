@@ -21,4 +21,8 @@ public class CustomerController {
     public List<Customer> getAllCustomers() {
         return customerService.getAllCustomers();
     }
+    @GetMapping("/path")
+    public List<Customer> getAllCustomers1() {
+        return customerService.getAllCustomers();
+    }
 }
